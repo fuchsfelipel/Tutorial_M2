@@ -4,7 +4,7 @@
     <title>Currículo · Felipe L. Fuchs</title>
     <meta charset="utf-8">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet"/>
-
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head>
 <body class="bg-gray-50">
 <div class="grid md:grid-cols-2 gap-4">
@@ -74,30 +74,33 @@
     <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-900 rounded-lg shadow-sm p-8">
         <h2 class="font-bold text-3xl mb-4">Experiência</h2>
         <ul>
-            <li class="mb-2">
+            <li class="mb-2 collapsible-list">
                 <h3 class="text-lg"><span class="font-semibold mr-2">Lorem ipsum dolor</span><span class="font-light">Lorem</span>
                 </h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 collapsible-list">
                 <h3 class="text-lg"><span class="font-semibold mr-2">Lorem ipsum dolor</span><span class="font-light">Lorem</span>
                 </h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 collapsible-list">
                 <h3 class="text-lg"><span class="font-semibold mr-2">Lorem ipsum dolor</span><span class="font-light">Lorem</span>
                 </h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 collapsible-list">
                 <h3 class="text-lg"><span class="font-semibold mr-2">Lorem ipsum dolor</span><span class="font-light">Lorem</span>
                 </h3>
                 <p>Lorem ipsum dolor sit amet</p>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 collapsible-list">
                 <h3 class="text-lg"><span class="font-semibold mr-2">Lorem ipsum dolor</span><span class="font-light">Lorem</span>
                 </h3>
                 <p>Lorem ipsum dolor sit amet</p>
+            </li>
+            <li>
+                <button type="button" class="btn-show-more text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Ver Mais</button>
             </li>
         </ul>
     </div>
@@ -377,5 +380,6 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+<script src="/javascripts/application.js"></script>
 </body>
 </html>
