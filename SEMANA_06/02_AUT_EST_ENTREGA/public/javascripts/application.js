@@ -9,3 +9,5 @@ $('.btn-show-more').on('click', function () {
     //change text of show more element just for demonstration purposes to this demo
     $(this).text() === 'Ver Mais' ? $(this).text('Ver Menos') : $(this).text('Ver Mais');
 });
+
+$('.credits').on('click', function() {alert("Currículo criado por Felipe L. Fuchs no Inteli em 2023.")});
